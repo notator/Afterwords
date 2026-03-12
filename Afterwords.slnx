@@ -3,9 +3,9 @@
     <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
   </Folder>
   <Folder Name="/AHistoryOfTheTwoCultures/researches/">
-    <File Path="AHistoryOfTheTwoCultures/ChatGPTHistoryChat.md" />
-    <File Path="AHistoryOfTheTwoCultures/ChatGPTMarkdownExportReadme.md" />
-    <File Path="AHistoryOfTheTwoCultures/FirstThoughts.md" />
+    <File Path="AHistoryOfTheTwoCultures/researches/ChatGPTHistoryChat.md" />
+    <File Path="AHistoryOfTheTwoCultures/researches/ChatGPTMarkdownExportReadme.md" />
+    <File Path="AHistoryOfTheTwoCultures/researches/FirstThoughts.md" />
   </Folder>
   <Folder Name="/InDefenceOfLiteracy/">
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
