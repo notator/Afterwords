@@ -1,2 +1,2 @@
 # Afterwords
-Texts written after Retrospective 2024
+Essays written after Retrospective 2024
