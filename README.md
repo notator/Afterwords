@@ -19,5 +19,6 @@ New texts should be created in their own folders and branches, and merged into t
 
 After uploading a new text to the public website:
 - Add a link to the main contents page.
-- Add an entry to the SiteLog for the new text, with a link to the online text and a brief description.
 - Add a link to the online catalog at https://james-ingram-act-two.de/writings/writings.html
+- Add an entry to the SiteLog for the new text, with a link to the online text and a brief description.
+- Add an entry to my Curriculum Vitae
