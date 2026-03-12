@@ -1,0 +1,56 @@
+<Solution>
+  <Folder Name="/AHistoryOfTheTwoCultures/">
+    <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
+  </Folder>
+  <Folder Name="/AHistoryOfTheTwoCultures/researches/">
+    <File Path="AHistoryOfTheTwoCultures/ChatGPTHistoryChat.md" />
+    <File Path="AHistoryOfTheTwoCultures/ChatGPTMarkdownExportReadme.md" />
+    <File Path="AHistoryOfTheTwoCultures/FirstThoughts.md" />
+  </Folder>
+  <Folder Name="/InDefenceOfLiteracy/">
+    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
+    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.htm" />
+    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.html" />
+    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.mathematicsAndProgrammingLanguages.html" />
+    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.notationCrisis.html" />
+    <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/TheArrowOfTime/">
+    <File Path="TheArrowOfTime/TheArrowOfTime.htm" />
+    <File Path="TheArrowOfTime/TheArrowOfTime.html" />
+    <File Path="TheArrowOfTime/TheArrowOfTimeFinalDraft.htm" />
+    <File Path="TheArrowOfTime/TheArrowOfTimeFinalDraft.html" />
+  </Folder>
+  <Folder Name="/TheArrowOfTime/CopilotChats/" />
+  <Folder Name="/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/">
+    <File Path="TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/Chat3.1.2026.md" />
+  </Folder>
+  <Folder Name="/TheArrowOfTime/CopilotChats/CollectingIdeas/">
+    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat1.md" />
+    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat2.md" />
+    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat3.md" />
+    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat4.md" />
+    <File Path="TheArrowOfTime/CopilotChats/CollectingIdeas/Chat5.md" />
+  </Folder>
+  <Folder Name="/TheArrowOfTime/CopilotChats/_WolframReversibility/">
+    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt1.md" />
+    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt2.md" />
+    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt3.md" />
+    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt4_(irreversibility).md" />
+    <File Path="TheArrowOfTime/CopilotChats/_WolframReversibility/Prompt5_(irreversibility).md" />
+  </Folder>
+  <Folder Name="/TheArrowOfTime/resources/">
+    <File Path="TheArrowOfTime/resources/actionPotential.png" />
+    <File Path="TheArrowOfTime/resources/neuron_small.png" />
+    <File Path="TheArrowOfTime/resources/potassiumGate.png" />
+    <File Path="TheArrowOfTime/resources/pumpCycle.png" />
+    <File Path="TheArrowOfTime/resources/sodiumGate.png" />
+  </Folder>
+  <Folder Name="/TheOriginOfTime/">
+    <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
+    <File Path="TheOriginOfTime/TheOriginOfTime.html" />
+  </Folder>
+</Solution>
