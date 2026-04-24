@@ -10,6 +10,10 @@
     <File Path="AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
   </Folder>
+  <Folder Name="/HawkinsTse/">
+    <File Path="HawkinsTse/HawkinsTse.htm" />
+    <File Path="HawkinsTse/HawkinsTse.html" />
+  </Folder>
   <Folder Name="/InDefenceOfLiteracy/">
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.htm" />
