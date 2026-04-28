@@ -11,8 +11,8 @@
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
   </Folder>
   <Folder Name="/HawkinsTse/">
-    <File Path="HawkinsTse/HawkinsTse.htm" />
     <File Path="HawkinsTse/HawkinsTse.html" />
+    <File Path="HawkinsTse/ReplyToRhizoome.htm" />
   </Folder>
   <Folder Name="/InDefenceOfLiteracy/">
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
