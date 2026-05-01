@@ -11,8 +11,9 @@
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
   </Folder>
   <Folder Name="/HawkinsTse/">
+    <File Path="HawkinsTse/HawkinsTse.htm" />
     <File Path="HawkinsTse/HawkinsTse.html" />
-    <File Path="HawkinsTse/ReplyToRhizoome.htm" />
+    <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
   </Folder>
   <Folder Name="/InDefenceOfLiteracy/">
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.appendixCurrentBeliefs.html" />
@@ -23,6 +24,7 @@
     <File Path="InDefenceOfLiteracy/InDefenceOfLiteracy.twoTypesOfTime.html" />
   </Folder>
   <Folder Name="/Solution Items/">
+    <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
     <File Path="README.md" />
   </Folder>
   <Folder Name="/TheArrowOfTime/">
