@@ -63,12 +63,12 @@
     <File Path="TheArrowOfTime/resources/pumpCycle.png" />
     <File Path="TheArrowOfTime/resources/sodiumGate.png" />
   </Folder>
-  <Folder Name="/Solution Items/TheLimitsOfObservation/">
-    <File Path="TheLimitsOfObservation/TheLimitsOfObservation.htm" />
-    <File Path="TheLimitsOfObservation/TheLimitsOfObservation.html" />
-  </Folder>
   <Folder Name="/Solution Items/TheOriginOfTime/">
     <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
     <File Path="TheOriginOfTime/TheOriginOfTime.html" />
+  </Folder>
+  <Folder Name="/Solution Items/TheScientificMethod/">
+    <File Path="TheScientificMethod/TheScientificMethod.htm" />
+    <File Path="TheScientificMethod/TheScientificMethod.html" />
   </Folder>
 </Solution>
