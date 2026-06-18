@@ -1,10 +1,13 @@
 <Solution>
   <Folder Name="/Solution Items/">
+    <File Path="evolvingIdeas.htm" />
+    <File Path="evolvingIdeas.html" />
     <File Path="HawkinsTse/Reply1ToRhizoome.htm" />
     <File Path="README.md" />
   </Folder>
   <Folder Name="/Solution Items/AHistoryOfTheTwoCultures/">
     <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.htm" />
+    <File Path="AHistoryOfTheTwoCultures/AHistoryOfTheTwoCultures.html" />
   </Folder>
   <Folder Name="/Solution Items/AHistoryOfTheTwoCultures/researches/">
     <File Path="AHistoryOfTheTwoCultures/researches/ChatGPTHistoryChat.md" />
@@ -14,10 +17,6 @@
     <File Path="AHistoryOfTheTwoCultures/researches/ForHansFuchs.html" />
     <File Path="AHistoryOfTheTwoCultures/researches/NotesOnHawkinsEtc.htm" />
     <File Path="AHistoryOfTheTwoCultures/researches/sources.htm" />
-  </Folder>
-  <Folder Name="/Solution Items/ARevisionOfTheSientificMethod/">
-    <File Path="ARevisionOfTheScientificMethod/ARevisionOfTheScientificMethod.htm" />
-    <File Path="ARevisionOfTheScientificMethod/ARevisionOfTheScientificMethod.html" />
   </Folder>
   <Folder Name="/Solution Items/HawkinsTse/">
     <File Path="HawkinsTse/HawkinsTse.htm" />
@@ -36,11 +35,18 @@
     <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.htm" />
     <File Path="MeyerTheologyRefutation/MeyerTheologyRefutation.html" />
   </Folder>
+  <Folder Name="/Solution Items/SongSixLeftMargin/">
+    <File Path="SongSixLeftMargin/songSixLeftMenu.htm" />
+    <File Path="SongSixLeftMargin/songSixTemple.htm" />
+    <File Path="SongSixLeftMargin/songSixTemple.html" />
+  </Folder>
+  <Folder Name="/Solution Items/SongSixLeftMargin/images/">
+    <File Path="SongSixLeftMargin/images/Sunburst100x115.png" />
+    <File Path="SongSixLeftMargin/images/Temple100x115.png" />
+  </Folder>
   <Folder Name="/Solution Items/TheArrowOfTime/">
     <File Path="TheArrowOfTime/TheArrowOfTime.htm" />
     <File Path="TheArrowOfTime/TheArrowOfTime.html" />
-    <File Path="TheArrowOfTime/TheArrowOfTimeFinalDraft.htm" />
-    <File Path="TheArrowOfTime/TheArrowOfTimeFinalDraft.html" />
   </Folder>
   <Folder Name="/Solution Items/TheArrowOfTime/CopilotChats/" />
   <Folder Name="/Solution Items/TheArrowOfTime/CopilotChats/AreSpaceAndTimeQualia/">
@@ -67,7 +73,7 @@
     <File Path="TheArrowOfTime/resources/pumpCycle.png" />
     <File Path="TheArrowOfTime/resources/sodiumGate.png" />
   </Folder>
-  <Folder Name="/Solution Items/TheOriginOfTime/">
+  <Folder Name="/Solution Items/TheOriginOfTime (old)/">
     <File Path="TheOriginOfTime/TheOriginOfTime.htm" />
     <File Path="TheOriginOfTime/TheOriginOfTime.html" />
   </Folder>

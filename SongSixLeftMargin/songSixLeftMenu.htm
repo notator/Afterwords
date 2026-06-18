@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title></title>
+    <base target="_top" />
+    <script src="../../../javascript.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        temple = new Image();
+        temple.src = "images/Temple100x115.png";
+        sunburst = new Image();
+        sunburst.src = "images/Sunburst100x115.png";
+
+    </script>
+    <link href="../styleSheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        a:link {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        body.menuContainer {
+
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana;
+            font-size: 11px;
+            line-height: 21px;
+            text-align: left;
+            border-right:1px solid #0A0;
+        }
+
+        .rightGreenBorder {
+            border-right:1px solid #0A0;
+            margin-right:1px;
+        }
+
+        hr.localDivider {
+            border-style: none;
+            height: 1px;
+            background-color: #0A0;
+            width: 80%;
+        }
+
+        div.absoluteCentred{
+            position: absolute;
+            text-align:center;
+            left: 0;
+            width: 100px;
+        }
+    </style>
+</head>
+<body class="menuContainer">
+    <a href="songSixTemple.html" onmouseover="setImage('temple', sunburst)" onmouseout="images['temple'].src = temple.src"
+        style="border-style: none; margin: 0px; padding: 0px">
+        <img src="images/Temple100x115.png" id="temple" class="rightGreenBorder" alt="temple" style="width: 100px; height: 115px;" />
+    </a>
+    <div style="padding: 0px; margin: 0px; height: 2000px; width: 100px; background-color: #F5FFF5; position: absolute; top: 115px; left: 0px; border-right:1px solid #0A0;">
+        <div class="absoluteCentred" style="top: 27px;">
+            <a href="../patreon/patreon.html">patreon</a>
+        </div>
+        <div class="absoluteCentred" style="top: 78px;">
+            <a href="../retrospective/retrospective.html">retrospective</a>
+        </div>
+        <div class="absoluteCentred" style="top: 129px;">
+            <a href="../evolvingIdeas.html">evolving ideas</a><br />
+        </div>
+        <div class="absoluteCentred" style="top: 399px;">
+            <a href="../actTwo.html">act two</a><br />
+        </div>
+    </div>
+</body>
+</html>
