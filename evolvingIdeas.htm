@@ -13,156 +13,303 @@
     </script>
 
     <style type="text/css">
-        hr.dayDivider {
-            margin: 10px 0px 10px 0px;
+        body {
+            color: #444444; /* dark grey text */
+            background-color: #FFFFFF;
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 30px 30px 2000px 30px; /* margin-bottom allows scrolling to lowest internal link */
+            width: 600px;
+        }
+
+        h1 {
+            font-family: Lucida Sans Unicode, Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 18px;
+            font-weight: normal;
+            margin-top: 14px;
+            margin-bottom: 14px
+        }
+
+        h2 {
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 10px
+        }
+
+            h2.large {
+                font-size: 13px;
+            }
+
+        h3 {
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 11px;
+            font-weight: bold;
+            margin-top: 8px;
+            margin-bottom: 10px
+        }
+
+        h4 {
+            font-family: Verdana, Arial, Geneva, Sans-Serif;
+            font-size: 11px;
+            font-weight: bold;
+            font-style: italic;
+            margin-top: 8px;
+            margin-bottom: 10px
+        }
+
+        div {
+            margin: 3px 0 6px 0;
+            padding: 0;
+        }
+
+            div.note /* div: a note in a blue frame */ {
+                font-size: 8.25pt;
+                line-height: 150%;
+                padding: 10px 20px 10px 20px;
+                border: 1px solid #1010C6
+            }
+
+            div.appendixNote /* div: a note in a green frame */ {
+                font-size: 8.25pt;
+                line-height: 150%;
+                padding: 10px 20px 10px 20px;
+                border: 1px solid #10C610; /*#0A0;*/
+                margin: 0;
+            }
+
+            div.indent1 {
+                padding: 0 0 0 15pt;
+                font-size: 8.25pt;
+                line-height: 150%;
+                margin: 0;
+            }
+
+            div.description {
+                padding: 0 0 0 15pt;
+                font-size: 8.25pt;
+                line-height: 150%;
+                margin: 0 0 5px 0;
+            }
+
+            div.appendix {
+                margin: 0;
+                border: 5px solid #AEA;
+                padding: 0 20px 0 20px;
+            }
+
+            div.small {
+                font-size: 8.25pt;
+                line-height: 150%;
+            }
+
+            div.timeDiv {
+                margin: 14px 0 6px 0;
+                padding: 0;
+            }
+
+            div.todo {
+                background-color: #FFCCCC;
+            }
+
+            div.todoRemark {
+                color: red;
+                background-color: yellow;
+                font-weight: bold;
+            }
+
+        .smallLineHeight /* div, table */ {
+            font-size: 8.25pt;
+            line-height: 150%;
+            margin: 1.25px 0 2px 0;
+            padding: 0;
+        }
+
+        hr.hrTitle {
+            border-style: none;
+            height: 2px;
+            background-color: #1010C6;
+            margin: 6px 0 6px 0;
+        }
+
+        hr.hrSection {
+            border-style: none;
+            height: 2px;
+            background-color: #1010C6;
+            margin: 16px 0 12px 0;
+        }
+
+        hr.internal {
             border-style: none;
             height: 1px;
             background-color: #1010C6;
+            margin: 10px 0 8px 0;
         }
 
-        div.dayStyle {
-            font-weight: bold;
-            font-size: 10px;
+        hr.appendixInternal {
+            border-style: none;
+            height: 1px;
+            background-color: #0A0;
+            margin: 10px 0 8px 0;
         }
 
-        div.redBox {
-            padding: 2px 3px 2px 3px;
-            border: 1px solid #FF0000;
+        hr.internalShort {
+            border-style: none;
+            height: 1px;
+            background-color: #1010C6;
+            margin: 10px 0 8px 0;
+            padding: 0 200px 0 200px;
+        }
+
+        hr.footnote {
+            border-style: none;
+            height: 1px;
+            width: 150px;
+            text-align: left;
+            background-color: #1010C6;
+            margin: 10px 0 4px 0;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        tr{
+            vertical-align:top;
+        }
+        td{
+             padding:4px;
+        }
+        td.myWork{
+            border:1px solid blue;
+        }
+        td.commentary{
+            border:1px solid #10C610;
+        }
+        td.collaboration{
+            border:1px solid red;
+        }
+        td.liveInterview{
+            border:1px solid #F0F;
+        }
+        td.date{
+            font-size:8.5pt;
+            line-height: 150%;
+            text-align:right;
         }
     </style>
 </head>
 <body>
-    <div style="width: 600px; margin-bottom:1500px">
-        <p class="header1">
-            Evolving Ideas (TODO 18.06.2026)
-        </p>
-        <hr class="hrHeight1" style="margin-bottom: 25px" />
+    <div>
+        <h1>Evolving Ideas
+        </h1>
+        <hr class="hrTitle" style="margin-bottom: 20px" />
         <div>
-            <a target="blank" href="TheNotationOfTime/theNotationOfTime.html">The Notation Of Time</a><br />
-            <div class="indent1Size">
-                Spring 1985: published in <i>Contact</i> magazine No. 29
-            </div>
-            <br />
-            <a target="blank" href="OpenLetter1999/openLetter1999.html">An open letter to musicologists</a><br />
-            <div class="indent1Size">
-                February 1999: published on my first web site
-            </div>
-            <br />
-            <a target="blank" href="InheritedProblems/inheritedProblems.html">Inherited Problems and a Proposed Solution</a><br />
-            <div class="indent1Size">
-                February 2002:
-                an update of <i>The Notation of Time</i><br />
-                commissioned as an YNEZ lecture (initiative Curtis Roads), and delivered at <i>Create</i>, Department of Music, UCSB, California
-            </div>
-            <br />
-            <a target="blank" href="DevelopingTraditions/sonalAtoms/sonalAtomsPreface.html">A Transcription of Curtis Roads&rsquo; <i>Sonal Atoms</i></a><br />
-            <div class="indent1Size">
-                Summer 2002: commissioned by Curtis Roads
-            </div>
-            <br />
-            <a target="blank" href="DevelopingTraditions/developingTraditions.html">Developing Traditions of Music Notation and Performance on the Web</a><br />
-            <div class="indent1Size">
-                December 2002:
-                includes a description of the concepts involved in the transcription of <i>Sonal Atoms</i><br />
-                Wedelmusic Conference, Fraunhofer Institute, Frankfurt, Germany.<br />
-            </div>
-            <br />
-            <a target="blank" href="../stockhausen/OnBeingInvisible/onBeingInvisible.html">On Being Invisible</a><br />
-            <div class="indent1Size">
-                April 2009:
-                An interview with Paul Roberts about my work as Stockhausen&rsquo;s copyist 1974-2000.<br />
-            </div>
-            <br />
-            <a target="blank" href="OnCursors/onCursors.html">On Cursors</a><br />
-            <div class="indent1Size">
-                May 2018:
-                A preface and two applications written while thinking about cursors.<br />
-                <div class="indent2Size" style="padding-left: 15pt; line-height: 150%;">
-                    1. <a href="OnCursors/Faure.html">Multiple synchronizations (Faur&eacute;&rsquo;s <i>Apr&egrave;s un r&ecirc;ve</i>)</a><br />
-                    2. <a href="OnCursors/aurora.html">Non-standard (Bathory-Kitsz&rsquo;s <i>Aurora Cagealis</i>)</a><br />
-                </div>
-            </div>
-            <br />
-            <a target="blank" href="ErratumMusical/erratumMusical.html">On Marcel Duchamp&rsquo;s <em>Erratum Musical</em></a><br />
-            <div class="indent1Size">
-                January 2019:
-                An analysis.<br />
-            </div>
-            <br />
-            <a target="blank" href="TickBasedTiming/tickBasedTiming.html">Tick-based Timing</a><br />
-            <div class="indent1Size">
-                April 2021: A tick is a quantum of time used in music notation and its performance.<br />
-                This essay further develops the ideas first presented in
-                <div class="indent2Size" style="padding-left: 15pt; line-height: 150%;">
-                    1. <a href="TheNotationOfTime/theNotationOfTime.html">The Notation Of Time</a> (1985)<br />
-                    2. <a href="InheritedProblems/inheritedProblems.html">Inherited Problems and a Proposed Solution</a> (2002)<br />
-                </div>
-                <br />
-            </div>
-            <div class="redBox">
-                <a target="blank" href="Retrospective2024/retrospective2024.html">Retrospective 2024</a><br />
-                <div class="indent1Size">
-                    October 2024: An updated English version of an Ex Machina talk and workshop given, in German, at the Folkwang University of the Arts, Essen, Germany on 4th July 2024.
-                </div>
-            </div>
-            <br />
-            <hr  id="afterwords" class="hrHeight1" style="margin-bottom: 10px" />
-            <div>
-                <div class="boldHeader2">Afterwords</div>
-                <div class="note" style="text-align:center; margin:0 70px 16px  70px"> <span class="indent1Size" style="font-weight:normal">These are the texts that are being written after <strong><a href="https://james-ingram-act-two.de/retrospective/retrospective.html">Retrospective 2024</a></strong>.<br />
-                        They corrrespond to <strong><a href="https://james-ingram-act-two.de/retrospective/retrospective.songSix.html">Song Six</a></strong> in the global <a href="https://james-ingram-act-two.de/retrospective/retrospective.html"><strong>Retrospective</strong></a> form.</span>
-                </div>
-                <a target="blank" href="Afterwords/InDefenceOfLiteracy/InDefenceOfLiteracy.html">In Defence of Literacy &mdash; <em>Two Types of Time</em></a><br />
-                <div class="indent1Size">
-                    December 2024: This is a rewritten version of a text that was originally sent to the <a href="https://www.essentiafoundation.org/"><em>Essentia Foundation</em></a> in May 2023 for possible publication. (It was politely rejected.)<br />
-                    This version rescues the essential points, while 
-                restricting the argument more to my own experience.
-                </div>
-                <br />
-                <a target="blank" href="Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a><br />
-                <div class="indent1Size">
-                    March 2026: The latest attempt to discover what I 
-                ultimately believe &#8212; this time taking Stephen Wolfram&#8217;s ideas about computation, and biological considerations (neurons etc.) into account.
-                </div>
-                <br />
-                <a target="blank" href="https://james-ingram-act-two.de/writings/Afterwords/ThePhilosophicMethod/ThePhilosophicMethod.html">The Philosophic Method</a><br />
-                <div class="indent1Size">
-                    June 2026:
-                    An extension of <a target="_blank" href="https://en.wikipedia.org/wiki/Scientific_method">the scientific method</a> that explicity handles untestable hypotheses.
-                </div>
-                <br />
-                <hr class="hrHeight1" style="margin-bottom: 10px" />
+            This material is being created after the completion of my <a target="_blank" href="https://james-ingram-act-two.de/writings/Retrospective2024/retrospective2024.html">Retrospective 2024</a>. <span style="font-size:8.5pt">(June 2024)</span><br />
+            It therefore corresponds to Song Six in the global Retrospective form.<br />
+            <div class="note">We are at the trial of Orestes at the Temple of Apollo. Orestes (the new Sun-God) is currently in hiding, so time has stopped. Clytæmnestra appears as a ghost to urge the Furies to chase him across the sky, so that time will start up again. Thats what their job is! :-)</div> 
+            There are currently three categories:
+            <ol>
+                <li>Work that I have produced on my own (in <span style="color:blue">blue</span> boxes)</li>
+                <li>Commentaries on other people's work (in <span style="color:#10C610">green</span> boxes)</li>
+                <li>Live, video interviews (in <span style="color:#F0F">purple</span> boxes)</li>
+            </ol>
+            Other categories will probably follow. (Collaborations, relevant work by other people, etc.)
+            <hr class="internal" />
+                 <div id="timeline">
+                <table >
+                    <colgroup>
+                        <col width="100px"/>
+                        <col width="*"/>
+                    </colgroup>
+                    <tr id="timelineInDefenceOfLiteracy">
+                        <td class="date">2024<br />6th December</td>
+                        <td class="myWork">
+    <a target="blank" href="Afterwords/InDefenceOfLiteracy/InDefenceOfLiteracy.html">In Defence of Literacy &mdash; <em>Two Types of Time</em></a><br />
+    <div class="small">
+        This is a rewritten version of a text that was originally sent to the <a href="https://www.essentiafoundation.org/"><em>Essentia Foundation</em></a> in May 2023 for possible publication. (It was politely rejected.)<br />
+        This version rescues the essential points, while 
+    restricting the argument more to my own experience.
+    </div>
+</td>
+                    </tr>
+                    <tr id="timelineAndreyev1">
+                        <td class="date">2024<br />13th December</td>
+                        <td class="liveInterview">
+                            <a href="https://www.youtube.com/watch?v=JVJh5E9QZ9A">Interview #1 with Samuel Andreyev (YouTube)</a><br />
+                            <div class="small">
+                                About my 30-year-long collaboration with Karlheinz Stockhausen, what I learned about music notation, what's wrong with the new music world and how to fix it, etc.
+                            </div>
+                        </td>
+                    </tr>
+                    <tr id="timelineAndreyev6">
+                        <td class="date">2025<br />6th April</td>
+                        <td class="liveInterview">
+                            <a href="https://www.youtube.com/watch?v=HQ6Sh9GBva8">Interview #2 with Samuel Andreyev (YouTube)</a><br />
+                            <div class="small">
+                                 We discuss the tradition and history of avant garde notation in music.
+                            </div>
+                        </td>
+                    </tr>
+                                        <tr id="timelineTheArrowOfTime">
+                        <td class="date">2026<br />9th March</td>
+                        <td class="myWork">
+                    <a target="blank" href="Afterwords/TheArrowOfTime/TheArrowOfTime.html">The Arrow of Time</a><br />
+                    <div class="small">
+                        The latest attempt to discover what I 
+                    ultimately believe &#8212; this time taking Stephen Wolfram&#8217;s ideas about computation, and biological considerations (neurons etc.) into account.
+                    </div>
+</td>
+                    </tr>
+                    <tr id="timelineCommentaryHawkinsTse">
+                        <td class="date">
+                            2026<br />25th May
+                        </td>
+                        <td class="commentary">
+                                <a target="blank" href="HawkinsTse/HawkinsTse.html">A Reaction to the Hawkins-Tse Interview</a>
+                                <div class="small">
+                                      A reaction to the interview between Dr. Nathan Hawkins and Prof. Peter Tse, on 18th April 2026: <a target="_blank" href="https://www.youtube.com/watch?v=UjT5eFtruK8">Top Neuroscientist: "The brain shows we DO have Free Will"</a>
+                                </div>
+                        </td>
+                    </tr>
+                    <tr id="timelineThePhilosophicMethod">
+                        <td class="date">2026<br />7th June</td>
+                        <td class="myWork"> 
+                    <a target="blank" href="https://james-ingram-act-two.de/writings/Afterwords/ThePhilosophicMethod/ThePhilosophicMethod.html">The Philosophic Method</a><br />
+                    <div class="small">
+                        June 2026:
+                        An extension of <a target="_blank" href="https://en.wikipedia.org/wiki/Scientific_method">the scientific method</a> that explicity handles untestable hypotheses.<br />
+                                    This precisely extended method leads to some 
+                        rather dramatic conclusions:
+            <ul>
+                <li>clock time is finite, but its beginning is intrinsically undefinable</li>
+                <li>perceived time is also finite but it has no beginning</li>
+                <li>mathematical physicists can and should ignore infinities</li>
+                <li>relativity and quantum theory can be reconciled</li>
+                <li><em>all</em> hypotheses, not just scientific ones, can be included in the same methodology.</li>
+            </ul>
+                        Comments welcome!
+                    </div>
+</td>
+                    </tr>
+                        <tr id="timelineHawkinsMeyer">
+                        <td class="date">2026<br />? June</td>
+                        <td class="commentary">
+                        <a target="blank" href="MeyerTheologyRefutation/MeyerTheologyRefutation.html">A Refutation of Stephen Meyer's Theology</a>  
+                         <div class="small">
+                             This text, begun in May 2026, was completed in June 2026. It is a reaction to the interview between Dr. Nathan Hawkins and Dr. Steven Meyer, published on 22nd May 2026:
+<a target="_blank" href="https://www.youtube.com/watch?v=gx4pDFX_PU4">Pushing Stephen Meyer further on his argument for God</a>.<br />
+                             It also refers to <a target="_blank" href="https://www.discovery.org/v/the-story-of-everything-extended-trailer/">the trailer to Stephen Meyer&#39;s film: The Story of Everything</a>.</div>
 
-                <p id="otherTexts" class="boldHeader2">Other Texts (old)</p>
-            </div>
-            <div class="indent1">
-                <a href="otherTexts/Perspective/perspective.html">Perspective, Space and Time in Music Notation</a><br />
-                <div class="indent2Size">
-                    Summer 2000: <i>Symposium on Systems Research in the Arts</i>, Baden-Baden, Germany.
-            <br />
-                    <br />
-                </div>
-                <a href="otherTexts/Agents/agents.html">Music Notation and Agents as Performers</a><br />
-                <div class="indent2Size">
-                    May 2001: an early version of <a href="otherTexts/StyleLibraries/styleLibraries.html"><i>The Writing of Style Libraries for Music Notation and Performance</i></a>
-                    <br />
-                    <br />
-                </div>
-                <a href="otherTexts/DevelopingMusic/developingMusic.html">Developing Music with Software Tools</a><br />
-                <div class="indent2Size">
-                    November 2001: <i>Contemporary Music Digital Publishing</i> workshop, Centro Tempo Reale, Florence, Italy.<br />
-                    The initiative for inviting me to the workshop came from Nicola Bernadini.
-            <br />
-                    <br />
-                </div>
-                <a href="otherTexts/StyleLibraries/styleLibraries.html">The Writing of Style Libraries for Music Notation and Performance</a><br />
-                <div class="indent2Size">
-                    July 2002: <i>The Second International Conference on Music and Artificial Intelligence</i>, Edinburgh, Scotland.<br />
-                    This paper was accepted as a poster presentation...<br />
-                    <br />
-                </div>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>
+
 </body>
 </html>
